@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root.8",
+    "database": "dbaduanas",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "freezeTableName": true,
+      "underscored": false
+    },
+    "defaultScope": {
+      "attributes": {
+        "exclude":["created_at", "updated_at"]
+      }
+    }
+  }
+  
+}
